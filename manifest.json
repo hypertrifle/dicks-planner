@@ -1,13 +1,17 @@
 {
     "manifest_version": 2,
-    "name": "sort your shit out toms planner",
-    "description": "Hyper trifle test shizzzzz",
+    "name": "Dicks Planner",
+    "description": "A UI re-design for read-only version of toms planner.",
     "version": "1.0",
   
     "browser_action": {
       "default_icon": "icon.png",
       "default_popup": "popup.html"
     },
+
+    "background": {
+      "scripts": ["background.js"] 
+   }, 
 
     "content_scripts": [
       {
